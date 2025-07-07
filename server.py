@@ -19,7 +19,7 @@ class RetellMistralServer:
         )
         
         # Your fine-tuned model ID from Mistral console
-        self.model_id = "gemini-1.5-pro-latest"
+        self.model_id = "6TcdJZMB27yANAbVT3MBpQvp5iPR97vZ"
         
         # Store conversation context
         self.conversations: Dict[str, List[Dict]] = {}
